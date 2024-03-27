@@ -1,0 +1,264 @@
+.buscador{
+  width: 150px;
+  position: relative;
+  
+}
+
+.lupa{
+  position: absolute;
+  display: block;
+  bottom: .0rem;
+  right: 6.0rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.filtrar{
+  padding-inline-start: 30px;
+  width: 100px;
+  border-radius: 13px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  
+}
+
+.barra-menu-principal{
+  display: flex;
+
+}
+
+
+.barra-menu-principal button{
+  justify-content: end;
+
+}
+
+.boton-inicio{
+  justify-content: end;
+  align-items: end;
+  position: absolute;
+  right: 1em;
+}
+
+.informes{
+  border-radius: 15px ;
+  border: 1px solid #fff;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  font-size: 10px;
+  width: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 0px 0px -16px;
+  
+}
+
+.informes:hover{
+  background-color: var(--gris-claro);
+}
+
+.inicio{
+  width: 100px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inicio:hover{
+background-color: var(--gris-claro);
+}
+
+
+.casillero{
+  width: 100px;
+  background-color: var(--gris-oscuro);
+  border: none;
+  text-align: center;
+  color: white;
+  margin: 0px 5px;
+}
+
+.filtrar{
+  margin: 0px 15px;
+}
+
+.oculto{
+  display: none;
+}
+
+.mensaje-exito{
+  background-color: var(--mensaje-usuario-verde);
+  width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.mensaje-exito p{
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.mensaje-error{
+  background-color: var(--mensaje-usuario-rojo);
+  width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.mensaje-error p{
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.mensaje-advertencia{
+  background-color: var(--mensaje-usuario-amarillo);
+  width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.mensaje-advertencia p{
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.texto-path{
+  font-size: 14px;
+  font-family: roboto;
+  color: var(--celeste);
+}
+
+
+.grilla{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  line-height: 120px;
+  border: 1px solid gray;
+  margin: 5px;
+  background-color: antiquewhite;
+}
+
+.boton-de-informe{
+  background-color: var(--gris-claro);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  width: 150px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 15%;
+  
+}
+.boton-de-informe:hover{
+  background-color: var(--textos);
+}
+
+.barra-de-informes{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mesas-estructuradas{
+  background-color: var(--celeste);
+  border-radius: 10px;
+  margin: 15px;
+  height: 70px;
+  width: 184px;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+
+.mesas-estructuradas p{
+  color: #ffffff;
+  font-size: 12px;
+  
+}
+
+.electores{
+  background-color: var(--magenta);
+  border-radius: 10px;
+  margin: 15px;
+  height: 70px;
+  width: 184px;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+
+.electores p{
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.participacion-sobre-escrutado{
+  background-color: var(--morado);
+  border-radius: 10px;
+  margin: 15px;
+  height: 70px;
+  width: 184px;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+
+.participacion-sobre-escrutado p{
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.icon{
+  align-items: center;
+  gap: auto;
+  margin: auto;
+  margin-left: -6px;
+}
+
+.barra-de-informes{
+  display: grid;
+  grid-template-columns: 60% auto auto auto auto;
+  align-items: center;
+  gap: 0px;
+}
+
+.contenido-principal{
+  margin: 40px 0px 20px 40px;
+}
+
+.titulo-principal{
+  margin-bottom:20px ;
+}
